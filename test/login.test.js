@@ -1,6 +1,7 @@
 const request = require('supertest');
 const {expect} = require ('chai');
-require('dotenv').config()
+require('dotenv').config();
+
 
 describe('Login', () => {
     describe('POST/Login', () => {
